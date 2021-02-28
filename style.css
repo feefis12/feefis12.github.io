@@ -1,0 +1,90 @@
+body
+{
+    background-image: url("/assets/Rectangle-1.png");
+    background-size:cover;
+    background-repeat: repeat
+    
+    
+    /* background-color: #cccccc; */
+
+}
+
+div.container
+{
+    text-align: center;
+  
+    color: white;
+    font-size: 20px;
+}
+
+
+div.text
+{
+    color: white;
+    font-size: 50px;
+}
+
+
+
+div.c
+{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr ;
+    grid-template-areas: "overlap";
+    
+
+}
+
+div.rec
+{
+    position: relative;
+    text-align: center;
+    grid-area: overlap;
+   ;
+   
+}
+div.arrow
+{
+    text-align: center;
+    grid-area: overlap;
+    margin: 40px;
+    margin-left: 1200px;
+    
+    position: relative;
+    
+
+}
+
+div.c2
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr ;
+    grid-template-areas: "overlap";
+    
+    position: relative;
+}
+
+
+div.c3
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr ;
+    grid-template-areas: "overlap";
+    position: relative;
+
+}
+
+
+div.c4
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr ;
+    grid-template-areas: "overlap";
+    position: relative;
+
+}
